@@ -18,11 +18,21 @@ python test-recall.py 100 100
 python show-recall.py
 ```
 
-# TLDR Recommendations for l2, dim 1024 indices
+# HNSW - l2, dim 1024 
 
 * M: 250-300
 * ef_construction: 100
 
 
-![Surface Chart for n1024](hnswlib_l2_n1024.png)
+![Surface chart for n1024](hnswlib_l2_n1024.png)
+
+
+
+# HNSW - l2, dim 256
+
+* M: 280
+* ef_construction: 50
+* recall: ~0.91
+
+![Surface chart for n256](hnswlib_l2_n256.png)
 

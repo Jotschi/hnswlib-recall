@@ -2,6 +2,7 @@ import hnswlib
 import numpy as np
 import sys
 
+#dim = 256
 dim = 1024
 num_elements = 100_000
 
@@ -17,6 +18,7 @@ data = np.float32(np.random.random((num_elements, dim)))
 # Declaring index
 hnsw_index = hnswlib.Index(space='l2', dim=dim)  # possible options are l2, cosine or ip
 bf_index = hnswlib.BFIndex(space='l2', dim=dim)
+print("dim:", dim)
 print("M: ", m)
 print("ef_construction:" , ef)
 
