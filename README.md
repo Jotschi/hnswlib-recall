@@ -4,7 +4,7 @@ This repo contains some scripts to measure and visualize the recall for [hnswlib
 
 Additional information and the original measurement script can be found in the [hnswlib repo](https://github.com/nmslib/hnswlib/blob/master/TESTING_RECALL.md).
 
-Don't test with less than 100k vectors. Otherwiese your results can be incorrect.
+Don't test with less than 100k vectors. Otherwise your results can be incorrect.
 
 ```bash
 python3.11 -m venv venv
